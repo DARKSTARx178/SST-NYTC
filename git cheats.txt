@@ -1,0 +1,10 @@
+git init
+git add -A
+git commit -m “Initial commit”
+git branch -M main
+git remote add origin <copy your repo url in url bar>.git
+git push origin main
+
+
+#if git push origin main dont work(do not copy and paste this):
+Use git push origin main --force
